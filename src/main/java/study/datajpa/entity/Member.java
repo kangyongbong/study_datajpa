@@ -14,7 +14,7 @@ import javax.persistence.*;
 // 실무에서 쓰이지 않음
 //@NamedEntityGraph(name = "Member.all", attributeNodes = @NamedAttributeNode("team"))
 // 각자 세팅
-public class Member {
+public class Member extends BaseEntity{
 
     @Id
     @GeneratedValue
