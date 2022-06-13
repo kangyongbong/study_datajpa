@@ -12,6 +12,8 @@ import javax.persistence.*;
 //        name="Member.findByUsername",
 //        query="select m from Member m where m.username = :username")
 // 실무에서 쓰이지 않음
+//@NamedEntityGraph(name = "Member.all", attributeNodes = @NamedAttributeNode("team"))
+// 각자 세팅
 public class Member {
 
     @Id
